@@ -1,0 +1,24 @@
+{{> mainmenu _id="pharmacy_settings" }}
+
+<section class="ui raised segment">
+    <div class="ui grid center aligned">
+        <div class="ui ten wide column">
+            <div class="left aligned ui fluid form segment">
+                <form action="/newPharmacy" method="POST">
+                        <h3 class="ui header center aligned">Update Pharmacy Details</h3>
+                        <div class="two fields">
+                            <div class="field">
+                                <label>Pharmacy Name</label> <input value="{{pharmacie.name}}" type="text" name="name">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label>Description</label> <input value="{{pharmacie.description}}" type="text" name="description">
+                        </div>
+                        <input type="hidden" value="{{ pharmacie._id }}" name="id"/>
+                        <button class="ui blue submit button">Save</button>
+                </form>
+                {{> error }}
+            </div>
+        </div>
+    </div>
+</section>

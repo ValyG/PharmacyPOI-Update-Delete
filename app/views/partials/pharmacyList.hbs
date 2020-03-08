@@ -1,0 +1,29 @@
+<section class="ui raised segment">
+    <div class="ui grid">
+        <aside class="eight wide column">
+            <img src="images/image.jpg" class="ui big image">
+        </aside>
+        <article class="eight wide column">
+            <table class="ui celled table segment">
+                <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+                </thead>
+                <tbody>
+                {{#each creates}}
+                    <tr>
+                        <td> {{name}} </td>
+                        <td> {{description}} </td>
+                        <td> <a href="/update/{{_id}}"><button class="ui blue submit button"> Update </button> </a> </td>
+                        <td> <a href="/delete/{{_id}}"> <button class="ui blue submit button"> Delete </button> </a> </td>
+                    </tr>
+                {{/each}}
+                </tbody>
+            </table>
+        </article>
+    </div>
+</section>

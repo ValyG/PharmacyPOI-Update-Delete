@@ -1,0 +1,86 @@
+{
+  "users": {
+    "_model": "User",
+    "homer": {
+      "firstName": "Corina",
+      "lastName": "Kumel",
+      "email": "corina.kumel@yahoo.com",
+      "password": "1234"
+    },
+    "marge": {
+      "firstName": "Adriana",
+      "lastName": "Hanes",
+      "email": "adriana.hanes@yahoo.com",
+      "password": "1234"
+    },
+    "bart": {
+      "firstName": "Tina",
+      "lastName": "Galvin",
+      "email": "tina.galvin@yahoo.com",
+      "password": "1234"
+    }
+  },
+  "pharmacies": {
+    "_model": "Create",
+    "one": {
+      "name": "Grant Pharmacy",
+      "description": "Main Street, Ennicorthy"
+
+    },
+    "two": {
+      "name": "Slaney Pharmacy",
+      "description": "Slaney Court, Ennicorthy"
+
+    },
+    "three": {
+      "name": " Farell's Pharmacy",
+      "description": "16 Templeshannon"
+
+    },
+    "four": {
+      "name": "Clonard Pharmacy",
+      "description": "Clonard Road, Wexford"
+
+    },
+    "five": {
+      "name": "Selskar Pharmacy",
+      "description": "28 Selskar St, Wexford"
+
+    },
+    "six": {
+      "name": "The Faythe Pharmacy",
+      "description": "The Faythe, Wexford"
+
+    },
+    "seven": {
+      "name": "Carroll's Pharmacy",
+      "description": "24 Ballybricken, Waterford"
+
+    },
+    "eight": {
+      "name": "Phelans Pharmacy",
+      "description": "33 Michael St, Waterford"
+
+    },
+    "nine": {
+      "name": "Burke's Pharmacy",
+      "description": "Hypercentre, Morgan St, Waterford"
+
+    },
+    "ten": {
+      "name": "City Pharmacy Ltd",
+      "description": "Dublin 2, Dublin"
+
+    },
+    "eleven": {
+      "name": "Hickey's Pharmacy",
+      "description": " Dublin 1, Dublin"
+
+    },
+    "twelve": {
+      "name": "Foley's Chemist",
+      "description": "Dublin 1"
+
+    }
+  }
+}
